@@ -1,3 +1,83 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  h2{
+    @apply uppercase text-primary font-bold text-3xl text-center my-20 mx-auto ;
+    border-bottom: 3px solid;
+    width: 320px;
+  }
+
+  h1{
+    @apply uppercase text-white text-5xl font-extrabold text-center;
+  }
+}
+
+@layer components{
+  .link{
+    @apply capitalize text-white;
+  }
+  .link:hover{
+    @apply border-b-2 border-white;
+  }
+
+  .btn{
+    @apply bg-primary text-white capitalize py-1 px-8;
+  }
+  .btn:hover{
+    @apply bg-sky-600;
+  }
+
+  .flex-cont{
+    @apply flex flex-row flex-wrap justify-center items-start gap-14 md:container md:mx-auto md:p-3;
+  }
+
+  .card{
+width:320px;
+height:450px;
+  }
+
+  .imgCont{
+    height: 230px;
+  }
+
+.filtersCont{
+  background-color: rgb(3, 105, 161,0.4);
+  @apply py-6;
+}
+  .filter{
+    border:1px solid rgb(3, 105, 161);
+    @apply py-1 px-3 rounded-lg;
+
+  }
+
+  .tag{
+  background-color: rgb(3, 105, 161,0.4);
+  @apply  rounded-md text-center text-white px-6 py-1 self-center ;
+  }
+  
+}
+
+.hero{
+  background-image:
+  linear-gradient(to bottom
+   ,rgb(3, 105, 161,0.5),
+   rgb(7, 89, 133,0.4)) ,
+    url("../assets/Images/hero.jpg");
+
+
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +93,14 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+
+
+
+svg{
+  width:30px;
+}
+ul{
+  list-style: none;
 }
