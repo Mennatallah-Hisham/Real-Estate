@@ -70,7 +70,7 @@ height:450px;
   linear-gradient(to bottom
    ,rgb(3, 105, 161,0.5),
    rgb(7, 89, 133,0.4)) ,
-    url("../public/hero.jpg");
+    url("/hero.jpg");
 
 
   background-position: center;
