@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Bars from "../assets/icons/bars";
 import Cross from "../assets/icons/cross";
-import Link from "next/Link";
+import Link from "next/link";
 
 export default function Nav() {
   const [showNav, setShowNav] = useState(false);
