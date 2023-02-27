@@ -28,7 +28,7 @@ export default function Home({propertiesForSale,propertiesForRent}) {
         </section>
 
    
-        <h2>for rent</h2>
+        <h2>for sale</h2>
         <section className='flex-cont'>
         {propertiesForSale.map((property)=><Property property={property} key={property.id}/>)}
         </section>
