@@ -14,12 +14,15 @@ export default function Nav() {
   }
 
   return (
+  
     <header
-      className=" sticky top-0 left-0 px-9 py-3 w-full  flex justify-between align-middle z-10
+      className={`sticky top-0 left-0 px-9 py-3 w-full  flex justify-between align-middle z-10
  
       
-    bg-primary "
-    >
+      bg-primary`
+
+
+      }   >
       <Link  href="/">
         <p className="text-white text-lg">REstate</p>
       </Link>
@@ -62,8 +65,9 @@ export default function Nav() {
 
       {showNav && (
         <nav
-          className=" absolute top-10 left-0 bg-primary h-nav  w-full
-        flex justify-center
+          className=" absolute top-12 left-0 bg-primary h-nav  w-full
+        flex justify-center 
+  
         "
         >
           <ul className="flex flex-col justify-center items-center gap-5">

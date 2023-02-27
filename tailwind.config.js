@@ -20,7 +20,7 @@ module.exports = {
       },
       height:{
         agency:"370px",
-        nav:"calc(100vh - 54px)"
+        nav:"calc(100vh - 49px)"
       }
     },
   },
