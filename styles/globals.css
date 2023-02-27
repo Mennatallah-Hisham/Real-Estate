@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -5,6 +6,9 @@
 
 
 @layer base {
+  html{
+    font-family: 'Nunito', sans-serif;
+  }
   h2{
     @apply uppercase text-primary font-bold text-3xl text-center my-20 mx-auto ;
     border-bottom: 3px solid;
